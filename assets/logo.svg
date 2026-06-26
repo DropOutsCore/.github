@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" rx="32" fill="#0D0C1A"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="66" x2="200" y2="66" stroke="#1E1B35" stroke-width="0.5"/>
+  <line x1="0" y1="133" x2="200" y2="133" stroke="#1E1B35" stroke-width="0.5"/>
+  <line x1="66" y1="0" x2="66" y2="200" stroke="#1E1B35" stroke-width="0.5"/>
+  <line x1="133" y1="0" x2="133" y2="200" stroke="#1E1B35" stroke-width="0.5"/>
+
+  <!-- D monogram — bold, geometric -->
+  <path d="M52 60 L52 140 L88 140 Q128 140 128 100 Q128 60 88 60 Z" fill="none" stroke="#7F77DD" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M52 60 L52 140" stroke="#7F77DD" stroke-width="5"/>
+
+  <!-- O cutout / second letter hint -->
+  <circle cx="148" cy="100" r="22" fill="none" stroke="#5DCAA5" stroke-width="4"/>
+  <circle cx="148" cy="100" r="10" fill="#5DCAA5" opacity="0.15"/>
+
+  <!-- Accent dot -->
+  <circle cx="52" cy="154" r="4" fill="#7F77DD"/>
+
+  <!-- "DROPOUTS" wordmark below -->
+  <text x="100" y="178" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#AFA9EC" letter-spacing="4">DROPOUTS</text>
+</svg>
